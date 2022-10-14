@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-color: #684041;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color:#fff;
+}
+
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+
+.slide-col{
+    width: 800px;
+    height:400px;
+    position: relative;
+}
+
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img{
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 20%;
+    border:3px solid #2d3a59;
+}
+
+.user-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color:#d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index:2;
+}
+
+.user-text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.user-text h3{
+    margin: 35px 0;
+    color:#fff;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translateY(-50%, -50%);
+}
+
+.indicator{
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    bottom: -10%;
+}
+
+.btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.active{
+    width: 30px;
+}
+
+.testimonial{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/* 
+@media (max-width:800px){
+        .hero{
+            display: flex;
+            justify-content: center;
+        }
+
+        .slide-col{
+            width: 500px;
+            height: 300px;
+        }
+        .user-img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top:70%;
+            right: 5%;
+            z-index: 2;
+        }
+
+        .user-text{
+            margin-top: 10%;
+            border: 5px solid #fff;
+        } */
+        
+}
